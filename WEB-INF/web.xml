@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+    <servlet> 
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Update</servlet-name>
+        <servlet-class>Update</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Update</servlet-name>
+        <url-pattern>/Update</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Add</servlet-name>
+        <servlet-class>Add</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/Add</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>Delete</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Borrow</servlet-name>
+        <servlet-class>Borrow</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Borrow</servlet-name>
+        <url-pattern>/Borrow</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Return</servlet-name>
+        <servlet-class>Return</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Return</servlet-name>
+        <url-pattern>/Return</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>ViewAll</servlet-name>
+        <servlet-class>ViewAll</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewAll</servlet-name>
+        <url-pattern>/ViewAll</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>MyBooks</servlet-name>
+        <servlet-class>MyBooks</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyBooks</servlet-name>
+        <url-pattern>/MyBooks</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>Search</servlet-name>
+        <servlet-class>Search</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/Search</url-pattern>
+    </servlet-mapping>
+
+</web-app>
